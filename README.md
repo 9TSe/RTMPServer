@@ -36,7 +36,7 @@ ffplay -i rtmp://127.0.0.1:1935/live/test
             TcpConnection
                         ->BufferReader
                         ->BufferWriter
-                        ->SocketUtil(未完结)
+                        ->SocketUtil
             
             ->
             Acceptor
