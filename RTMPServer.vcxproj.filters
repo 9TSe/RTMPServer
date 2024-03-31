@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="xop">
+      <UniqueIdentifier>{4a6bb4c0-af84-4a63-80e1-7b947826e6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="net">
+      <UniqueIdentifier>{0e095401-5f44-4ecb-a885-a98f0832962e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="net\Acceptor.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\BufferReader.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\BufferWriter.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\EpollTaskScheduler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\EventLoop.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Logger.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Pipe.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\SelectTaskScheduler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\SocketUtil.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TaskScheduler.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TcpConnection.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TcpServer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\TcpSocket.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Timer.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\Timestamp.cpp">
+      <Filter>net</Filter>
+    </ClCompile>
+    <ClCompile Include="xop\amf.cpp">
+      <Filter>xop</Filter>
+    </ClCompile>
+    <ClCompile Include="xop\RtmpChunk.cpp">
+      <Filter>xop</Filter>
+    </ClCompile>
+    <ClCompile Include="xop\RtmpClient.cpp">
+      <Filter>xop</Filter>
+    </ClCompile>
+    <ClCompile Include="xop\RtmpConnection.cpp">
+      <Filter>xop</Filter>
+    </ClCompile>
+    <ClCompile Include="xop\RtmpHandshake.cpp">
+      <Filter>xop</Filter>
+    </ClCompile>
+    <ClCompile Include="xop\RtmpPublisher.cpp">
+      <Filter>xop</Filter>
+    </ClCompile>
+    <ClCompile Include="xop\RtmpServer.cpp">
+      <Filter>xop</Filter>
+    </ClCompile>
+    <ClCompile Include="xop\RtmpSession.cpp">
+      <Filter>xop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="net\Acceptor.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\BufferReader.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\BufferWriter.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Channel.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\EpollTaskScheduler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\EventLoop.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\log.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Logger.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Pipe.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\RingBuffer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\SelectTaskScheduler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Socket.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\SocketUtil.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TaskScheduler.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TcpConnection.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TcpServer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\TcpSocket.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Timer.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\Timestamp.h">
+      <Filter>net</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\amf.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\rtmp.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpChunk.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpClient.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpConnection.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpHandshake.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpMessage.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpPublisher.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpServer.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpSession.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+    <ClInclude Include="xop\RtmpSink.h">
+      <Filter>xop</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
